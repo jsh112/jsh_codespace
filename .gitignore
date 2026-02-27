@@ -1,3 +1,31 @@
+### Java / Maven ###
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+### Docker ###
+.dockerignore
+docker-compose.override.yml
+
+### IDE ###
+.idea/
+*.iml
+*.iws
+.vscode/
+*.swp
+*.swo
+
+### OS ###
+.DS_Store
+Thumbs.db
+
 # Local .terraform directories
 .terraform/
 
